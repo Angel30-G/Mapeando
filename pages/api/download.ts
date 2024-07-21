@@ -1,21 +1,22 @@
-import type { NextApiRequest, NextApiResponse } from "next";
-import path from "path";
-import fs from "fs";
+// netlify/functions/downloadFile.js
+const fs = require("fs");
+const path = require("path");
 
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  const { fileName, folderName } = req.query as {
-    fileName?: string;
-    folderName?: string;
-  };
+exports.handler = async (event: any) => {
+  const { fileName, folderName } = event.queryStringParameters;
 
   if (!fileName || !folderName) {
-    return res
-      .status(400)
-      .json({ message: "File name and folder name are required" });
+    return {
+      statusCode: 400,
+      body: JSON.stringify({
+        message: "File name and folder name are required",
+      }),
+    };
   }
 
   const filePath = path.join(
-    process.cwd(),
+    __dirname,
+    "..",
     "public",
     "files",
     folderName,
@@ -23,10 +24,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   );
 
   if (fs.existsSync(filePath)) {
-    res.setHeader("Content-Disposition", `attachment; filename=${fileName}`);
-    res.setHeader("Content-Type", "application/octet-stream");
-    fs.createReadStream(filePath).pipe(res);
+    return {
+      statusCode: 200,
+      headers: {
+        "Content-Disposition": `attachment; filename=${fileName}`,
+        "Content-Type": "application/octet-stream",
+      },
+      body: fs.readFileSync(filePath),
+    };
   } else {
-    res.status(404).json({ message: "File not found" });
+    return {
+      statusCode: 404,
+      body: JSON.stringify({ message: "File not found" }),
+    };
   }
-}
+};
