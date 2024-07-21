@@ -56,7 +56,7 @@ import image63 from "@/app/assets/images/Liberia2023/DSC_0198.jpg";
 import image64 from "@/app/assets/images/Liberia2023/DSC_0199.jpg";
 import image65 from "@/app/assets/images/Liberia2023/DSC_0203.jpg";
 
-const images = [
+const liberiaImages = [
   { original: image1.src, thumbnail: image1.src, key: "image1" },
   { original: image2.src, thumbnail: image2.src, key: "image2" },
   { original: image3.src, thumbnail: image3.src, key: "image3" },
@@ -116,4 +116,4 @@ const images = [
   { original: image65.src, thumbnail: image65.src, key: "image65" },
 ];
 
-export default images;
+export default liberiaImages;

@@ -2,7 +2,7 @@
 
 import MainPage from "@/app/components/MainPage/MainPage";
 import { useRouter } from "next/router";
-import images from "./images";
+import liberiaImages from "@/app/imagesFiles/liberiaImages";
 
 const pageData = {
   place: "Liberia",
@@ -43,7 +43,7 @@ export default function Liberia() {
       brochureLink={pageData.brochureLink}
       SchoolName={pageData.schoolName}
       activityText={pageData.activityText}
-      images={images}
+      images={liberiaImages}
       downloadData={pageData.downloadData}
     ></MainPage>
   );
