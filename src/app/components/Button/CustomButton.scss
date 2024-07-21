@@ -1,0 +1,29 @@
+button {
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.7s ease all;
+}
+
+.animation:hover {
+  width: 100%;
+  transition: 0.7s ease all;
+}
+
+//======= Sizes =======//
+.big {
+  width: 100%;
+}
+
+.medium {
+  width: 50%;
+}
+
+.medium-large {
+  width: 65%;
+}
+
+.small {
+  width: 30%;
+}
