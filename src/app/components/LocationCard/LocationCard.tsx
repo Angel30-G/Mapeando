@@ -7,7 +7,6 @@ import Image from "next/image";
 // Sub-Components ===============>
 import { CustomButton as Button } from "../Button/CustomButton";
 import Text from "../Text/Text";
-import Link from "next/link";
 
 export default function LocationCard({
   title,

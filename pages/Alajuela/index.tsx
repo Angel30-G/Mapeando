@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/router";
 import MainPage from "@/app/components/MainPage/MainPage";
+import alajuelaImages from "@/app/imagesFiles/alajuelaImages";
 
 const pageData = {
   videoLink: "https://www.youtube.com/embed/CnHtFwKbPzQ?si=trdzmczsFMnJwz-0",
@@ -40,6 +41,7 @@ export default function Alajuela() {
       mapLink={pageData.mapLink}
       SchoolName={pageData.schoolName}
       activityText={pageData.activityText}
+      images={alajuelaImages}
       downloadData={pageData.downloadData}
     />
   );

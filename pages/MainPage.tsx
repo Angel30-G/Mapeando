@@ -1,14 +1,13 @@
 import LocationCard from "@/app/components/LocationCard/LocationCard";
 import useStyle from "@/app/styles/useStyles";
 import Text from "@/app/components/Text/Text";
-import Section from "@/app/components/Section/Section";
 import Image from "next/image";
+import "./mainPage.scss";
 
 //=========== Imports de imagenes
 import Alajuela from "@/app/assets/images/LocationCards/Alajuela.webp";
 import Liberia from "@/app/assets/images/LocationCards/Liberia.jpg";
 import LabExp from "@/app/assets/images/LabExp.jpg";
-import Link from "next/link";
 
 export default function MainPage() {
   /*+++++++++++++++++++++++++++++++++++++
@@ -113,7 +112,7 @@ export default function MainPage() {
         Sobre el Laboratorío Experimental
       </h1>
       <div
-        className="imageWithText"
+        className="imageWithTextf"
         style={{ display: "flex", alignItems: "center" }}
       >
         <Image

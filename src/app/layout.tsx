@@ -19,8 +19,16 @@ export default function RootLayout({
 }>) {
   const menuLinks = {
     links: [
-      { label: "Contacto", link: "#", icon: "house" },
-      { label: "Créditos", link: "#", icon: "map" },
+      {
+        label: "Contacto",
+        link: "menuSections/ContactPage",
+        icon: "house",
+      },
+      {
+        label: "Créditos",
+        link: "#",
+        icon: "map",
+      },
       { label: "Quienes somos", link: "#", icon: "map" },
       { label: "Niñeces mapeando", link: "#", icon: "map" },
     ],
