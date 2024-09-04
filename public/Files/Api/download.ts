@@ -1,4 +1,3 @@
-// netlify/functions/downloadFile.js
 const fs = require("fs");
 const path = require("path");
 
@@ -17,20 +16,22 @@ exports.handler = async (event: any) => {
   const filePath = path.join(
     __dirname,
     "..",
-    "public",
-    "files",
+    "..",
+    "public_Files",
     folderName,
     fileName
   );
 
   if (fs.existsSync(filePath)) {
+    const fileContent = fs.readFileSync(filePath, { encoding: "base64" });
     return {
       statusCode: 200,
       headers: {
         "Content-Disposition": `attachment; filename=${fileName}`,
         "Content-Type": "application/octet-stream",
       },
-      body: fs.readFileSync(filePath),
+      body: fileContent,
+      isBase64Encoded: true,
     };
   } else {
     return {

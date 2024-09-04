@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter } from "next/router";
+import { useSearchParams } from "next/navigation";
 import MainPage from "@/app/components/MainPage/MainPage";
 import alajuelaImages from "@/app/imagesFiles/alajuelaImages";
 
@@ -28,13 +28,12 @@ const pageData = {
 };
 
 export default function Alajuela() {
-  const router = useRouter();
-  const { variant } = router.query;
+  const searchParams = useSearchParams();
+  const variant = searchParams.get("variant");
 
-  const variantString = Array.isArray(variant) ? variant[0] : variant;
   return (
     <MainPage
-      variant={variantString}
+      variant={variant || "blue"}
       place={pageData.place}
       videoLink={pageData.videoLink}
       brochureLink={pageData.brochureLink}

@@ -21,7 +21,7 @@ export default function RootLayout({
     links: [
       {
         label: "Contacto",
-        link: "menuSections/ContactPage",
+        link: "/Pages/MenuSections/ContactPage",
         icon: "house",
       },
       {

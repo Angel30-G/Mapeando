@@ -38,7 +38,7 @@ export default function ModalDownload({ data, close }: ModalDownloadProps) {
         <hr />
         <div className="files">
           {data &&
-            data.filesNames.map((item) => (
+            data.filesNames.map((item: string) => (
               <div className="item" key={item}>
                 <p
                   style={{

@@ -1,7 +1,8 @@
 "use client";
 
+import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import MainPage from "@/app/components/MainPage/MainPage";
-import { useRouter } from "next/router";
 import liberiaImages from "@/app/imagesFiles/liberiaImages";
 
 const pageData = {
@@ -15,7 +16,7 @@ const pageData = {
   activityText: `Profesores y estudiantes del Tecnológico de Costa Rica (TEC) visitamos la Escuela Alba Ocampo en Liberia en busca de especialistas para apoyarnos en un proyecto muy importante sobre la ciudad.
   Por suerte, nos encontramos con niñas y niños de 4°, quienes nos contaron sus pensares y sentires sobre el lugar donde viven. Por medio de mapas nos indicaron los lugares que más les gustan, los que consideran seguros, donde juegan y en general, los que hacen parte de su cotidiano de alguna manera.`,
   downloadData: {
-    folderName: "Liberia2023",
+    folderName: "public/files/Liberia2023",
     filesNames: [
       "comerciales.geojson",
       "institucionales.geojson",
@@ -31,12 +32,17 @@ const pageData = {
 };
 
 export default function Liberia() {
-  const router = useRouter();
-  const { variant } = router.query;
-  const variantString = Array.isArray(variant) ? variant[0] : variant;
+  const searchParams = useSearchParams();
+  const [variant, setVariant] = useState<string | null>(null);
+
+  useEffect(() => {
+    const variantParam = searchParams.get("variant");
+    setVariant(variantParam);
+  }, [searchParams]);
+
   return (
     <MainPage
-      variant={variantString}
+      variant={variant || "blue"}
       place={pageData.place}
       videoLink={pageData.videoLink}
       mapLink={pageData.mapLink}
@@ -45,6 +51,6 @@ export default function Liberia() {
       activityText={pageData.activityText}
       images={liberiaImages}
       downloadData={pageData.downloadData}
-    ></MainPage>
+    />
   );
 }

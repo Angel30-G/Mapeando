@@ -1,6 +1,6 @@
 import useStyle from "@/app/styles/useStyles";
 import Text from "@/app/components/Text/Text";
-import "./generalStyles.scss";
+import "./styles.scss";
 export default function ContactPage() {
   const { TYPOGRAPHYS, COLORS, CONTRAST } = useStyle();
 

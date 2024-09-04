@@ -66,17 +66,17 @@ export default function MainPage() {
           title="Liberia 2023"
           text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolor, molestiae expedita impedit mollitia saepe blanditiis in dicta eligendi quas."
           variant="oceanBlue"
-          link="Liberia"
+          link="/Pages/Liberia"
           image={Liberia.src}
         />
         <LocationCard
           title="Alajuela 2023"
           text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolor, molestiae expedita impedit mollitia saepe blanditiis in dicta eligendi quas."
           variant="oceanBlue"
-          link="Alajuela"
+          link="/Pages/Alajuela"
           image={Alajuela.src}
         />
-        <LocationCard
+        {/* <LocationCard
           title="Liberia 2023"
           text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolor, molestiae expedita impedit mollitia saepe blanditiis in dicta eligendi quas."
           variant="oceanBlue"
@@ -98,8 +98,8 @@ export default function MainPage() {
           title="Alajuela 2023"
           text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolor, molestiae expedita impedit mollitia saepe blanditiis in dicta eligendi quas."
           variant="oceanBlue"
-          link="/Alajuela"
-        />
+          link="./Alajuela"
+        /> */}
       </div>
       <h1
         style={{
