@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import MainPage from "@/app/components/MainPage/MainPage";
 import alajuelaImages from "@/app/imagesFiles/alajuelaImages";
@@ -27,7 +28,7 @@ const pageData = {
   },
 };
 
-export default function Alajuela() {
+function AlajuelaPage() {
   const searchParams = useSearchParams();
   const variant = searchParams.get("variant");
 
@@ -43,5 +44,13 @@ export default function Alajuela() {
       images={alajuelaImages}
       downloadData={pageData.downloadData}
     />
+  );
+}
+
+export default function Alajuela() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <AlajuelaPage />
+    </Suspense>
   );
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import MainPage from "@/app/components/MainPage/MainPage";
 import liberiaImages from "@/app/imagesFiles/liberiaImages";
@@ -31,7 +31,7 @@ const pageData = {
   },
 };
 
-export default function Liberia() {
+function LiberiaPage() {
   const searchParams = useSearchParams();
   const [variant, setVariant] = useState<string | null>(null);
 
@@ -52,5 +52,13 @@ export default function Liberia() {
       images={liberiaImages}
       downloadData={pageData.downloadData}
     />
+  );
+}
+
+export default function Liberia() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <LiberiaPage />
+    </Suspense>
   );
 }
