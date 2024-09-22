@@ -1,10 +1,10 @@
-import image1 from "/app/assets/images/Alajuela2023/DSC_0006-min.jpg";
-import image2 from "/app/assets/images/Alajuela2023/DSC_0015-min.jpg";
-import image3 from "/app/assets/images/Alajuela2023/DSC_0039-min.jpg";
-import image4 from "/app/assets/images/Alajuela2023/DSC_0151-min.jpg";
-import image5 from "/app/assets/images/Alajuela2023/DSC_0184-min.jpg";
-import image6 from "/app/assets/images/Alajuela2023/DSC_0185-min.jpg";
-import image7 from "/app/assets/images/Alajuela2023/DSC_0224-min.jpg";
+import image1 from "@/app/assets/images/Alajuela2023/image1.jpg";
+import image2 from "@/app/assets/images/Alajuela2023/image2.jpg";
+import image3 from "@/app/assets/images/Alajuela2023/image3.jpg";
+import image4 from "@/app/assets/images/Alajuela2023/image4.jpg";
+import image5 from "@/app/assets/images/Alajuela2023/image5.jpg";
+import image6 from "@/app/assets/images/Alajuela2023/image6.jpg";
+import image7 from "@/app/assets/images/Alajuela2023/image7.jpg";
 
 const alajuelaImages = [
   { original: image1.src, thumbnail: image1.src, key: "image1" },
