@@ -45,8 +45,8 @@ export default function Liberia() {
       variant={variant || "blue"}
       place={pageData.place}
       videoLink={pageData.videoLink}
-      mapLink={pageData.mapLink}
       brochureLink={pageData.brochureLink}
+      mapLink={pageData.mapLink}
       SchoolName={pageData.schoolName}
       activityText={pageData.activityText}
       images={liberiaImages}

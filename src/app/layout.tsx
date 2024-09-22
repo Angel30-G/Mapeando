@@ -26,11 +26,15 @@ export default function RootLayout({
       },
       {
         label: "Créditos",
-        link: "#",
+        link: "/Pages/MenuSections/Credits",
         icon: "map",
       },
-      { label: "Quienes somos", link: "#", icon: "map" },
-      { label: "Niñeces mapeando", link: "#", icon: "map" },
+      {
+        label: "Quienes somos",
+        link: "/Pages/MenuSections/About",
+        icon: "map",
+      },
+      { label: "Niñeces mapeando", link: "/Pages", icon: "map" },
     ],
   };
 

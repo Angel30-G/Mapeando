@@ -1,0 +1,47 @@
+.headerBox {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+  .collaborators {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .studentsContainer {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .students {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(217, 234, 241);
+    border-radius: 2rem;
+    padding: 4%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .container {
+      justify-content: space-around;
+      border-radius: 2rem;
+      display: flex;
+      width: 100%;
+      ul {
+        list-style: none;
+
+        li {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}

@@ -50,20 +50,6 @@ export default function MainPage({
           </p>
         </div>
       </div>
-      <div className="download">
-        <p
-          style={{
-            color: CONTRAST.black,
-            ...TYPOGRAPHYS.text1,
-          }}
-          onClick={() => {
-            setShowDownload(true);
-          }}
-        >
-          Descargar Contenido
-          <Download />
-        </p>
-      </div>
       <div className="sectionContainer" style={{ marginTop: "-1rem" }}>
         <Section title="¿De qué trató la actividad?" content={activityText} />
         <div className="videoContainer">
@@ -109,7 +95,7 @@ export default function MainPage({
           />
         </div>
         <iframe
-          style={{ borderRadius: "1rem" }}
+          style={{ borderRadius: "1rem", marginTop: "2rem" }}
           width="100%"
           height="500px"
           allowFullScreen
@@ -118,6 +104,20 @@ export default function MainPage({
         />
         <p>
           <a href={mapLink}>Ver pantalla completa</a>
+        </p>
+      </div>
+      <div className="download">
+        <p
+          style={{
+            color: CONTRAST.black,
+            ...TYPOGRAPHYS.text1,
+          }}
+          onClick={() => {
+            setShowDownload(true);
+          }}
+        >
+          Descargar datos geograficos
+          <Download />
         </p>
       </div>
 
