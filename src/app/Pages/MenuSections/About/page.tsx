@@ -30,7 +30,7 @@ export default function About() {
         />
         <Text
           content={
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages leap into electronic typesetting,"
+           "El Atlas de las Niñeces es una iniciativa gestionada desde el Laboratorio Experimental de Computación y Comunidades (LabComún), una red académica de extensión e investigación del Centro Académico de Alajuela del Tecnológico de Costa Rica (TEC). LabComún promueve el intercambio y la construcción de conocimiento entre la universidad pública y las comunidades, enfocándose en áreas como la Pedagogía de la Computación y la Computación Descolonial. Desde este laboratorio, impulsamos procesos colaborativos que integran tecnologías libres, participación y justicia social. Utilizamos software libre, datos abiertos e investigación-acción participativa como ejes fundamentales para nuestro trabajo con las comunidades.  A través de este proyecto, buscamos contribuir al reconocimiento de las infancias como actores territoriales, articulando esfuerzos entre escuelas públicas, comunidades y población estudiantil del TEC."
           }
           styles={{
             ...TYPOGRAPHYS.text1,

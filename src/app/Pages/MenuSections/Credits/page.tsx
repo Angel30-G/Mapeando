@@ -8,128 +8,35 @@ export default function Credits() {
   return (
     <div className="headerBox">
       <div className="collaborators">
-        <MemberCard name="Carlos Jiménez" description="Profesor" />
-        <MemberCard name="María Rodríguez" description="Supervisora" />
-        <MemberCard name="Luis Fernández" description="Extensionista" />
-        <MemberCard name="María Rodríguez" description="Supervisora" />
-        <MemberCard name="Luis Fernández" description="Extensionista" />
-        <MemberCard name="María Rodríguez" description="Supervisora" />
-        <MemberCard name="Luis Fernández" description="Extensionista" />
-        <MemberCard name="Ana Morales" description="Coordinadora" />
+        <MemberCard name="Dra. Rosa Elena Malavassi Aguilar" description="Escuela de Arquitectura y Urbanismo, ITCR " />
+        <MemberCard name="Arq. Dominique Chang Albizurez" description="Escuela de Arquitectura y Urbanismo, ITCR " />
+        <MemberCard name="MDU. Arq. Mauricio Guevara Murillo " description="Escuela de Arquitectura y Urbanismo, ITCR " />
+        <MemberCard name="Dr. Francisco Mojica Mendieta " description="Escuela de Ciencias Sociales, ITCR " />
+        <MemberCard name="Dr. Jaime Gutiérrez Alfaro " description="Unidad Desconcentrada Ingeniería en Computación, Centro Académico de Alajuela, ITCR " />
+        <MemberCard name="Arq Pablo Acuña Quiel " description="Unidad Desconcentrada Ingeniería en Computación, Centro Académico de Alajuela, ITCR " />
+        <MemberCard name="Licda. Claudia Rojas Bravo" description="LabComun, ITCR " />
+  
       </div>
       <div className="studentsContainer">
         <div className="students">
-          <h1 style={{ ...TYPOGRAPHYS.title3 }}>Estudiantes Liberia</h1>
+          <h1 style={{ ...TYPOGRAPHYS.title3 }}>Grupo de estudiantes asistentes del TEC</h1>
           <div className="container">
             <ul>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Sofía Herrera</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Daniela Ureña</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Carlos Quesada</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Javier Solano</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>María Araya</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Gabriel Chacón</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Lucía Fernández</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Alejandro Rojas</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Isabel Vargas</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Antonio Aguilar</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Carolina Mora</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Eduardo Castro</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Patricia Soto</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Felipe Segura</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Diego Blanco</li>
-            </ul>
-            <ul>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Sofía Herrera</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Daniela Ureña</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Carlos Quesada</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Javier Solano</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>María Araya</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Gabriel Chacón</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Lucía Fernández</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Alejandro Rojas</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Isabel Vargas</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Antonio Aguilar</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Carolina Mora</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Eduardo Castro</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Patricia Soto</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Felipe Segura</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Diego Blanco</li>
-            </ul>
-            <ul>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Sofía Herrera</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Daniela Ureña</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Carlos Quesada</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Javier Solano</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>María Araya</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Gabriel Chacón</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Lucía Fernández</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Alejandro Rojas</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Isabel Vargas</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Antonio Aguilar</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Carolina Mora</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Eduardo Castro</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Patricia Soto</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Felipe Segura</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Diego Blanco</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Isaac Melendez Gatgens</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Pablo Sandí Sanchez</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Jeaustin Obando Arias</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Fernando Vega Valerio</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Royner Miranda Segura</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Jesus Molina</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Valeria Arias Umaña</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Ervin Rodriquez Villanueva</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Brandon Retana Chacon</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Rosa Elena Malavassi Aguilar</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Gerald Matarrita Alavarado</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>José Andrés Vargas Serrano</li>
             </ul>
           </div>
         </div>{" "}
-        <div className="students">
-          <h1 style={{ ...TYPOGRAPHYS.title3 }}>Estudiantes Alajuela</h1>
-          <div className="container">
-            <ul>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Sofía Herrera</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Daniela Ureña</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Carlos Quesada</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Javier Solano</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>María Araya</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Gabriel Chacón</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Lucía Fernández</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Alejandro Rojas</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Isabel Vargas</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Antonio Aguilar</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Carolina Mora</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Eduardo Castro</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Patricia Soto</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Felipe Segura</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Diego Blanco</li>
-            </ul>
-            <ul>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Sofía Herrera</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Daniela Ureña</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Carlos Quesada</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Javier Solano</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>María Araya</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Gabriel Chacón</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Lucía Fernández</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Alejandro Rojas</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Isabel Vargas</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Antonio Aguilar</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Carolina Mora</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Eduardo Castro</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Patricia Soto</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Felipe Segura</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Diego Blanco</li>
-            </ul>
-            <ul>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Sofía Herrera</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Daniela Ureña</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Carlos Quesada</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Javier Solano</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>María Araya</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Gabriel Chacón</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Lucía Fernández</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Alejandro Rojas</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Isabel Vargas</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Antonio Aguilar</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Carolina Mora</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Eduardo Castro</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Patricia Soto</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Felipe Segura</li>
-              <li style={{ ...TYPOGRAPHYS.text1 }}>Diego Blanco</li>
-            </ul>
-          </div>
-        </div>
       </div>
     </div>
   );

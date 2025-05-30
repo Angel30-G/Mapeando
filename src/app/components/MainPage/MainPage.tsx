@@ -116,22 +116,44 @@ export default function MainPage({
             setShowDownload(true);
           }}
         >
-          Descargar datos geograficos
+          Descargar datos geográficos
           <Download />
         </p>
       </div>
 
-      {brochureLink && (
-        <div className="sectionContainer">
-          <Section title="Obten más información en nuestro brochure" />
-          <iframe
-            id="brochure-liberia"
-            width="100%"
-            height="600px"
-            src={brochureLink}
-          ></iframe>
-        </div>
-      )}
+{brochureLink && (
+  <div className="sectionContainer">
+    <Section title="Obten más información en nuestro brochure" />
+
+    <iframe
+      id="brochure-liberia"
+      width="100%"
+      height="600px"
+      src={brochureLink}
+    />
+
+    <div style={{ display: "flex", justifyContent: "center", marginBottom: "1rem", paddingTop: "4rem"}}>
+      <a 
+        href={place === "Alajuela" ? "/Brochure_Alajuela.pdf" : "/Brochure_Liberia.pdf"}
+        download={`Brochure_Niñeces_Mapeando_${place}.pdf`}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "0.5rem",
+          padding: "0.5rem 1rem",
+          backgroundColor: COLORS[variant],
+          color: CONTRAST.white,
+          borderRadius: "0.5rem",
+          textDecoration: "none",
+          ...TYPOGRAPHYS.text1,
+        }}
+      >
+        <Download color={CONTRAST.white} />
+        Descargar Brochure (PDF)
+      </a>
+    </div>
+  </div>
+)}
       {showDownload && (
         <ModalDowload
           data={downloadData}

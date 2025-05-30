@@ -6,6 +6,7 @@ export default interface MainPageProps {
   activityText: string;
   place: string;
   brochureLink?: string;
+  brochureDownload?: string;
   images?: {
     original: string;
     thumbnail: string;

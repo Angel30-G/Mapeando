@@ -32,7 +32,17 @@ export default function MainPage() {
       </h1>
       <Text
         content={
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          <>
+          El Atlas de las Niñeces es resultado de un proyecto de extensión universitaria del Tecnológico de Costa Rica (TEC) que busca visibilizar cómo las infancias perciben y experimentan el territorio que habitan. Frente a un modelo de planificación históricamente adultocéntrico, este proyecto propone una ruptura simbólica al reconocer a niños y niñas como sujetos activos con capacidad de análisis, opinión y propuesta sobre los espacios que habitan.
+          <br /><br />
+          A través de talleres participativos realizados en escuelas públicas de distintas localidades del país, facilitados por población estudiantil del TEC junto a personas extensionistas y docentes, se recopilan mapas, dibujos y narrativas creadas por niños y niñas entre los 9 y 10 años, que reflejan sus vivencias, preocupaciones, deseos y vínculos con el espacio público.
+          <br /><br />
+          La metodología utilizada se basa en el mapeo participativo o cartografía social, una herramienta crítica que permite a las comunidades representar colectivamente su experiencia territorial. Esta metodología no solo visibiliza saberes subalternizados, sino que cuestiona las formas tradicionales de producción de conocimiento y propone un enfoque más democrático, inclusivo y situado.
+          <br /><br />
+          Este proyecto parte del compromiso de la universidad pública con la construcción de comunidades más justas, inclusivas y participativas. Su objetivo es integrar las voces infantiles en los procesos de planificación territorial, reconociendo su derecho a opinar, ser escuchadas y tomadas en consideración sobre los lugares que forman parte de su vida cotidiana.
+          <br /><br />
+          El resultado es este Atlas digital, que muestra una colección de mapas construidos por las infancias, en los que se señalan los lugares que consideran relevantes en su día a día. Estos espacios fueron clasificados en distintas categorías: lugares públicos, barrios, espacios privados, espacios naturales, instituciones y espacios comerciales. Además, todos los datos recopilados son abiertos y están disponibles para su descarga, fomentando el uso y análisis colectivo de esta información por parte de diversos actores sociales, académicos e institucionales.
+          </>
         }
         styles={{
           ...TYPOGRAPHYS.text1,
@@ -63,14 +73,14 @@ export default function MainPage() {
       >
         <LocationCard
           title="Liberia 2023"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolor, molestiae expedita impedit mollitia saepe blanditiis in dicta eligendi quas."
+          text=""
           variant="oceanBlue"
           link="/Pages/Liberia"
           image={Liberia.src}
         />
         <LocationCard
           title="Alajuela 2023"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolor, molestiae expedita impedit mollitia saepe blanditiis in dicta eligendi quas."
+          text=""
           variant="oceanBlue"
           link="/Pages/Alajuela"
           image={Alajuela.src}
