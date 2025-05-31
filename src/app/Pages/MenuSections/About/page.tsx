@@ -16,7 +16,7 @@ export default function About() {
           marginTop: "10rem",
         }}
       >
-        Sobre el Laboratorío Experimental
+        Sobre el Lab Común
       </h1>
       <div
         className="imageWithTextf"

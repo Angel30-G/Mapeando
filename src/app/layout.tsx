@@ -30,7 +30,7 @@ export default function RootLayout({
         icon: "map",
       },
       {
-        label: "Quienes somos",
+        label: "Quiénes somos",
         link: "/Pages/MenuSections/About",
         icon: "map",
       },

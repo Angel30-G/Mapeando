@@ -173,3 +173,43 @@ html {
     }
   }
 }
+
+.studentsContainer {
+    width: 70%;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.students {
+    width: 100%;
+    height: 265vh;
+    background: linear-gradient(to bottom, #1e90ff, white); 
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    max-height: 50%;
+}
+
+.container {
+    justify-content: center;
+    border-radius: 2rem;
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+}
+
+ul {
+    list-style: none;
+    padding: 0; 
+    text-align: center; 
+}
+
+li {
+    margin-top: 1rem;
+}

@@ -10,6 +10,8 @@ import MyImageGallery from "../ImageGallery/ImageGallery";
 import Download from "@/app/assets/icons/Download";
 import ModalDowload from "../ModalDownLoad/ModalDownload";
 
+
+
 export default function MainPage({
   variant = "blue",
   videoLink,
@@ -154,6 +156,64 @@ export default function MainPage({
     </div>
   </div>
 )}
+
+{place === "Liberia" && (
+  <div className="studentsContainer">
+        <div className="students">
+          <h1 style={{ ...TYPOGRAPHYS.title3 }}>Grupo de niñas y niños que participaron en talleres de la Escuela Alba Ocampo, Liberia</h1>
+          <div className="container">
+            <ul>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Juan Pablo Solís</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Iván Garay Alfaro</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Josué Alfaro Murillo</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Gabriel Alfaro Murillo</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Isabella Lago Obando</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Jimena Esquivel Mora</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Luzciana Barboza Padilla</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Daniela Mata</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Daisy Rebeca Eras Vargas</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Thiago José Marchena Ugarte</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Royner Andrés López Calderón</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Carlos José Chavarría </li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Saymond Mendoza Garnier </li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Auxiliadora Kiany Saborío </li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Maripaz Centeno Centeno </li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Alejandro Castillo Chavarría</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>José Mario Chaves</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Eithan A. Rio Solano</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Valerie Alvares Medina</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Kessler David Rodríguez Rodríguez</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Jean Marki Castillo Bastos</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Valarie Nicole Corella Jiménez</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Valenthina López Villalobos</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Sharith Salazar Morales</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Dylan Daniel González Morales</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Misael Morena Ramírez</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Mariana Valentina Eras Hernández</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Kendall Manuel Quirós Moreno</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Mateo Eras Ocampo</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Justin Stiven Zúñiga Quesada</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Maylen Celeste Castañeda</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Gael Santiago Vásquez Meza</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Melissa Isabela Orozco</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Britney María Torres </li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Neymar Javier Zamora Bello</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Danna Sofia Salas Ruiz</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Sebastián Hernández Martínez</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Meredith López Maroto</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Lia Kaylani Mendoza Quirós</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Whitney Camila Cardois Torres</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Valentina Aguilar Cisneros</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Marissa López Maroto</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Jimena de los Ángeles Ruiz</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Alejandro Serrano Méndez</li>
+              <li style={{ ...TYPOGRAPHYS.text1 }}>Yorjany Ugarte Chacón</li>
+            </ul>
+          </div>
+        </div>{" "}
+      </div>
+      )}
+
       {showDownload && (
         <ModalDowload
           data={downloadData}

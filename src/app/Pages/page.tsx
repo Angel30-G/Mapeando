@@ -28,27 +28,27 @@ export default function MainPage() {
           color: CONTRAST.black,
         }}
       >
-        Atlas de las niñeces Costa Rica
+        Atlas de las Niñeces Costa Rica
       </h1>
       <Text
-        content={`
+  content={`
     El Atlas de las Niñeces es resultado de un proyecto de extensión universitaria del Tecnológico de Costa Rica (TEC) que busca visibilizar cómo las infancias perciben y experimentan el territorio que habitan. Frente a un modelo de planificación históricamente adultocéntrico, este proyecto propone una ruptura simbólica al reconocer a niños y niñas como sujetos activos con capacidad de análisis, opinión y propuesta sobre los espacios que habitan.
+    
+    \nA través de talleres participativos realizados en escuelas públicas de distintas localidades del país, facilitados por población estudiantil del TEC junto a personas extensionistas y docentes, se recopilan mapas, dibujos y narrativas creadas por niños y niñas entre los 9 y 10 años, que reflejan sus vivencias, preocupaciones, deseos y vínculos con el espacio público.
 
-    A través de talleres participativos realizados en escuelas públicas de distintas localidades del país, facilitados por población estudiantil del TEC junto a personas extensionistas y docentes, se recopilan mapas, dibujos y narrativas creadas por niños y niñas entre los 9 y 10 años, que reflejan sus vivencias, preocupaciones, deseos y vínculos con el espacio público.
+    \nLa metodología utilizada se basa en el mapeo participativo o cartografía social, una herramienta crítica que permite a las comunidades representar colectivamente su experiencia territorial. Esta metodología no solo visibiliza saberes subalternizados, sino que cuestiona las formas tradicionales de producción de conocimiento y propone un enfoque más democrático, inclusivo y situado.
 
-    La metodología utilizada se basa en el mapeo participativo o cartografía social, una herramienta crítica que permite a las comunidades representar colectivamente su experiencia territorial. Esta metodología no solo visibiliza saberes subalternizados, sino que cuestiona las formas tradicionales de producción de conocimiento y propone un enfoque más democrático, inclusivo y situado.
+    \nEste proyecto parte del compromiso de la universidad pública con la construcción de comunidades más justas, inclusivas y participativas. Su objetivo es integrar las voces infantiles en los procesos de planificación territorial, reconociendo su derecho a opinar, ser escuchadas y tomadas en consideración sobre los lugares que forman parte de su vida cotidiana.
 
-    Este proyecto parte del compromiso de la universidad pública con la construcción de comunidades más justas, inclusivas y participativas. Su objetivo es integrar las voces infantiles en los procesos de planificación territorial, reconociendo su derecho a opinar, ser escuchadas y tomadas en consideración sobre los lugares que forman parte de su vida cotidiana.
-
-    El resultado es este Atlas digital, que muestra una colección de mapas construidos por las infancias, en los que se señalan los lugares que consideran relevantes en su día a día. Estos espacios fueron clasificados en distintas categorías: lugares públicos, barrios, espacios privados, espacios naturales, instituciones y espacios comerciales. Además, todos los datos recopilados son abiertos y están disponibles para su descarga, fomentando el uso y análisis colectivo de esta información por parte de diversos actores sociales, académicos e institucionales.
+    \nEl resultado es este Atlas digital, que muestra una colección de mapas construidos por las infancias, en los que se señalan los lugares que consideran relevantes en su día a día. Estos espacios fueron clasificados en distintas categorías: lugares públicos, barrios, espacios privados, espacios naturales, instituciones y espacios comerciales. Además, todos los datos recopilados son abiertos y están disponibles para su descarga, fomentando el uso y análisis colectivo de esta información por parte de diversos actores sociales, académicos e institucionales.
   `}
-
-        styles={{
-          ...TYPOGRAPHYS.text1,
-          textAlign: "center",
-          marginBottom: "1rem",
-        }}
-      />
+  styles={{
+    ...TYPOGRAPHYS.text1,
+    textAlign: "center",
+    marginBottom: "1rem",
+    whiteSpace: "pre-wrap",
+  }}
+/>
       <Text
         content="Territorios Mapeados"
         styles={{
